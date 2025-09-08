@@ -1,0 +1,67 @@
+# ---- General OS / Editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.code-workspace
+
+# ---- Environment files ----
+.env
+.env.*
+Backend/.env
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Python (Backend) ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# If the Python virtual environment is inside Backend/
+.venv/
+venv/
+env/
+Backend/Include/
+Backend/Lib/
+Backend/Lib/site-packages/
+Backend/Scripts/
+Backend/pyvenv.cfg
+
+# ---- Node (Frontend) ----
+Frontend/node_modules/
+node_modules/
+Frontend/dist/
+dist/
+Frontend/.vite/
+.vite/
+coverage/
+coverage-*
+.nyc_output/
+.parcel-cache/
+
+# ---- Build artifacts ----
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# ---- Misc ----
+# Local tooling caches
+.cache-loader/
+.tmp/
