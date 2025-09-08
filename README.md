@@ -10,7 +10,7 @@ python -m venv venv
 # macOS/Linux:
 source venv/bin/activate
 pip install -r requirements.txt
-uvicorn main:app --reload
+-m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 FastAPI will serve at: `http://127.0.0.1:8000`
 
