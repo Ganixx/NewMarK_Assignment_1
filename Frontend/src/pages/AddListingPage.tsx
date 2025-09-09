@@ -3,7 +3,7 @@ import ListingForm, { type ListingFormValues } from '../components/ListingForm'
 
 export default function AddListingPage() {
   const navigate = useNavigate()
-  const apiBase = (import.meta as any).env?.VITE_API_BASE_URL || '/api'
+  const apiBase = 'https://newmark-assignment-1.onrender.com'
 
   const onSubmit = async (values: ListingFormValues) => {
     const res = await fetch(`${apiBase}/listings`, {

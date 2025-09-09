@@ -15,7 +15,7 @@ export default function ListingDetailPage() {
   const [listing, setListing] = useState<Listing | null>(null)
   const [bullets, setBullets] = useState<string[] | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const apiBase = (import.meta as any).env?.VITE_API_BASE_URL || '/api'
+  const apiBase = 'https://newmark-assignment-1.onrender.com'
 
   useEffect(() => {
     let cancelled = false
