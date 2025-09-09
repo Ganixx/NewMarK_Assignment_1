@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from fastapi.responses import JSONResponse
 
-from settings import settings
+from Backend.settings import settings
 
 
 class ListingBase(BaseModel):
